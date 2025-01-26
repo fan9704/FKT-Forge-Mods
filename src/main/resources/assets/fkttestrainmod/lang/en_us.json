@@ -4,6 +4,8 @@
 
   "block.fkttestrainmod.alexandrite_block": "FKT Block",
   "block.fkttestrainmod.raw_alexandrite_block": "Raw FKT Block",
+  "block.fkttestrainmod.alexandrite_ore": "FKT Ore",
+  "block.fkttestrainmod.alexandrite_deepslate_ore": "FKT Deepslate Ore",
 
   "creativetab.fkttestrainmod.alexandrite_items": "FKT Items",
   "creativetab.fkttestrainmod.alexandrite_blocks": "FKT Blocks"
