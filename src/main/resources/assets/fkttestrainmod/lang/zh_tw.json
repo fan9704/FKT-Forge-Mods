@@ -2,10 +2,14 @@
   "item.fkttestrainmod.alexandrite": "FKT 寶石",
   "item.fkttestrainmod.raw_alexandrite": "FKT 原石",
 
+  "item.fkttestrainmod.chisel": "鑿",
+
   "block.fkttestrainmod.alexandrite_block": "FKT 磚",
   "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦",
   "block.fkttestrainmod.alexandrite_ore": "FKT 礦",
   "block.fkttestrainmod.alexandrite_deepslate_ore": "FKT 深板岩礦",
+
+  "block.fkttestrainmod.magic_block": "神奇方塊",
 
   "creativetab.fkttestrainmod.alexandrite_items": "FKT 物品",
   "creativetab.fkttestrainmod.alexandrite_blocks": "FKT 方塊"
