@@ -3,5 +3,8 @@
   "item.fkttestrainmod.raw_alexandrite": "FKT 原石",
 
   "block.fkttestrainmod.alexandrite_block": "FKT 磚",
-  "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦"
+  "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦",
+
+  "creativetab.fkttestrainmod.alexandrite_items": "FKT 物品",
+  "creativetab.fkttestrainmod.alexandrite_blocks": "FKT 方塊"
 }
