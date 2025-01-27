@@ -1,9 +1,9 @@
 {
-  "replace": false,
   "values": [
     "fkttestrainmod:alexandrite_block",
     "fkttestrainmod:raw_alexandrite_block",
     "fkttestrainmod:alexandrite_ore",
-    "fkttestrainmod:alexandrite_deepslate_ore"
+    "fkttestrainmod:alexandrite_deepslate_ore",
+    "fkttestrainmod:magic_block"
   ]
 }

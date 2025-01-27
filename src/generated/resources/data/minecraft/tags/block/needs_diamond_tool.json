@@ -1,7 +1,5 @@
 {
-  "replace": false,
   "values": [
-    "fkttestrainmod:alexandrite_block",
     "fkttestrainmod:raw_alexandrite_block"
   ]
 }
