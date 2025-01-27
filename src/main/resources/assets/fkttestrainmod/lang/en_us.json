@@ -3,6 +3,8 @@
   "item.fkttestrainmod.raw_alexandrite": "Raw FKT",
 
   "item.fkttestrainmod.chisel": "Chisel",
+  "item.fkttestrainmod.kohlrabi": "Kohlrabi",
+  "item.fkttestrainmod.aurora_ashes": "Aurora Ashes",
 
   "block.fkttestrainmod.alexandrite_block": "FKT Block",
   "block.fkttestrainmod.raw_alexandrite_block": "Raw FKT Block",
@@ -12,6 +14,12 @@
   "block.fkttestrainmod.magic_block": "Magic Block",
 
   "creativetab.fkttestrainmod.alexandrite_items": "FKT Items",
-  "creativetab.fkttestrainmod.alexandrite_blocks": "FKT Blocks"
+  "creativetab.fkttestrainmod.alexandrite_blocks": "FKT Blocks",
 
+  "tooltip.fkttestrainmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+
+  "tooltip.fkttestrainmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.fkttestrainmod.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.fkttestrainmod.kohlrabit": "This taste GREAT!"
 }

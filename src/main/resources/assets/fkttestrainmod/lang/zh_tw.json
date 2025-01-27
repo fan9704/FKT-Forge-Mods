@@ -3,6 +3,8 @@
   "item.fkttestrainmod.raw_alexandrite": "FKT 原石",
 
   "item.fkttestrainmod.chisel": "鑿",
+  "item.fkttestrainmod.kohlrabi": "大頭菜",
+  "item.fkttestrainmod.aurora_ashes": "極光灰燼",
 
   "block.fkttestrainmod.alexandrite_block": "FKT 磚",
   "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦",
@@ -12,5 +14,12 @@
   "block.fkttestrainmod.magic_block": "神奇方塊",
 
   "creativetab.fkttestrainmod.alexandrite_items": "FKT 物品",
-  "creativetab.fkttestrainmod.alexandrite_blocks": "FKT 方塊"
+  "creativetab.fkttestrainmod.alexandrite_blocks": "FKT 方塊",
+
+  "tooltip.fkttestrainmod.magic_block.tooltip": "這方塊有點 §9神秘§r",
+
+  "tooltip.fkttestrainmod.chisel.shift_down": "這物品改變某些方塊",
+  "tooltip.fkttestrainmod.chisel": "按下 §eShift§r 取得更多資訊!",
+
+  "tooltip.fkttestrainmod.kohlrabit": "這個吃起來 真香!"
 }
