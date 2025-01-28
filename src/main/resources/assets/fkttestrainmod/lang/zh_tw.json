@@ -13,6 +13,19 @@
 
   "block.fkttestrainmod.magic_block": "神奇方塊",
 
+  "block.fkttestrainmod.alexandrite_stairs": "FKT 階梯",
+  "block.fkttestrainmod.alexandrite_slab": "FKT 半磚",
+
+  "block.fkttestrainmod.alexandrite_button": "FKT 按鈕",
+  "block.fkttestrainmod.alexandrite_pressure_plate": "FKT 壓力板",
+
+  "block.fkttestrainmod.alexandrite_fence": "FKT 柵欄",
+  "block.fkttestrainmod.alexandrite_fence_gate": "FKT 柵欄門",
+  "block.fkttestrainmod.alexandrite_wall": "FKT 牆",
+
+  "block.fkttestrainmod.alexandrite_door": "FKT 門",
+  "block.fkttestrainmod.alexandrite_trapdoor": "FKT 地板門",
+
   "creativetab.fkttestrainmod.alexandrite_items": "FKT 物品",
   "creativetab.fkttestrainmod.alexandrite_blocks": "FKT 方塊",
 

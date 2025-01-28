@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "alexandrite",
+  "ingredients": [
+    {
+      "item": "fkttestrainmod:alexandrite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "fkttestrainmod:alexandrite_button"
+  }
+}

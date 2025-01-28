@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "fkttestrainmod:block/alexandrite_block"
+  }
+}

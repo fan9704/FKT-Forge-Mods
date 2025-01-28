@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "alexandrite",
+  "key": {
+    "#": {
+      "item": "fkttestrainmod:alexandrite"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "fkttestrainmod:alexandrite_door"
+  }
+}

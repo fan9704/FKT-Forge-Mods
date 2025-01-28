@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "fkttestrainmod:block/alexandrite_door_bottom",
+    "top": "fkttestrainmod:block/alexandrite_door_top"
+  }
+}

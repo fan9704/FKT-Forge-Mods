@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "fkttestrainmod:block/alexandrite_block",
+    "side": "fkttestrainmod:block/alexandrite_block",
+    "top": "fkttestrainmod:block/alexandrite_block"
+  }
+}

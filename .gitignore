@@ -25,6 +25,7 @@ run
 forge*changelog.txt
 
 # Forge Related
-run-data
+run-data/
+run-data/logs
 src/generated/resources/.cache/**
 

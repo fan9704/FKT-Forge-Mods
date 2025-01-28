@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "fkttestrainmod:block/alexandrite_block"
+  }
+}
