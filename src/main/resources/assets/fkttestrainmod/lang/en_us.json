@@ -13,18 +13,20 @@
 
   "block.fkttestrainmod.magic_block": "Magic Block",
 
-  "block.fkttestrainmod.alexandrite_stairs": "Alexandrite Stairs",
-  "block.fkttestrainmod.alexandrite_slab": "Alexandrite Slab",
+  "block.fkttestrainmod.alexandrite_stairs": "FKT Stairs",
+  "block.fkttestrainmod.alexandrite_slab": "FKT Slab",
 
-  "block.fkttestrainmod.alexandrite_button": "Alexandrite Button",
-  "block.fkttestrainmod.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+  "block.fkttestrainmod.alexandrite_button": "FKT Button",
+  "block.fkttestrainmod.alexandrite_pressure_plate": "FKT Pressure Plate",
 
-  "block.fkttestrainmod.alexandrite_fence": "Alexandrite Fence",
-  "block.fkttestrainmod.alexandrite_fence_gate": "Alexandrite Fence Gate",
-  "block.fkttestrainmod.alexandrite_wall": "Alexandrite Wall",
+  "block.fkttestrainmod.alexandrite_fence": "FKT Fence",
+  "block.fkttestrainmod.alexandrite_fence_gate": "FKT Fence Gate",
+  "block.fkttestrainmod.alexandrite_wall": "FKT Wall",
 
-  "block.fkttestrainmod.alexandrite_door": "Alexandrite Door",
-  "block.fkttestrainmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
+  "block.fkttestrainmod.alexandrite_door": "FKT Door",
+  "block.fkttestrainmod.alexandrite_trapdoor": "FKT Trapdoor",
+
+  "block.fkttestrainmod.alexandrite_lamp": "FKT Lamp",
 
   "creativetab.fkttestrainmod.alexandrite_items": "FKT Items",
   "creativetab.fkttestrainmod.alexandrite_blocks": "FKT Blocks",

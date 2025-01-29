@@ -1,6 +1,7 @@
 package net.fkt.forgetrain.block;
 
 import net.fkt.forgetrain.ForgeTrain;
+import net.fkt.forgetrain.block.custom.AlexandriteLampBlock;
 import net.fkt.forgetrain.block.custom.MagicBlock;
 import net.fkt.forgetrain.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -59,6 +60,9 @@ public class ModBlocks {
     public static final RegistryObject<TrapDoorBlock> ALEXANDRITE_TRAPDOOR = registerBlock("alexandrite_trapdoor",
             ()-> new TrapDoorBlock(BlockSetType.IRON,BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noCollission()));
 
+    public static final RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
+            () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
 
     private  static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T>  toReturn = BLOCKS.register(name, block);
