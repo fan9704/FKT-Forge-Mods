@@ -5,6 +5,7 @@ import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -31,6 +32,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.ALEXANDRITE_WALL, ModBlocks.ALEXANDRITE_BLOCK);
 
         simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
+
+        handheldItem(ModItems.ALEXANDRITE_SWORD);
+        handheldItem(ModItems.ALEXANDRITE_PICKAXE);
+        handheldItem(ModItems.ALEXANDRITE_SHOVEL);
+        handheldItem(ModItems.ALEXANDRITE_AXE);
+        handheldItem(ModItems.ALEXANDRITE_HOE);
+    }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(ForgeTrain.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {

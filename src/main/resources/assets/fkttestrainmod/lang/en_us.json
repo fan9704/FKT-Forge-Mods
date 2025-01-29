@@ -6,6 +6,12 @@
   "item.fkttestrainmod.kohlrabi": "Kohlrabi",
   "item.fkttestrainmod.aurora_ashes": "Aurora Ashes",
 
+  "item.fkttestrainmod.alexandrite_sword": "FKT Sword",
+  "item.fkttestrainmod.alexandrite_pickaxe": "FKT Pickaxe",
+  "item.fkttestrainmod.alexandrite_shovel": "FKT Shovel",
+  "item.fkttestrainmod.alexandrite_axe": "FKT Axe",
+  "item.fkttestrainmod.alexandrite_hoe": "FKT Hoe",
+
   "block.fkttestrainmod.alexandrite_block": "FKT Block",
   "block.fkttestrainmod.raw_alexandrite_block": "Raw FKT Block",
   "block.fkttestrainmod.alexandrite_ore": "FKT Ore",
