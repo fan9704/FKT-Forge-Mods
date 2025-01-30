@@ -12,6 +12,8 @@
   "item.fkttestrainmod.alexandrite_axe": "FKT 之斧",
   "item.fkttestrainmod.alexandrite_hoe": "FKT 之鋤",
 
+  "item.fkttestrainmod.alexandrite_hammer": "FKT 之錘",
+
   "block.fkttestrainmod.alexandrite_block": "FKT 磚",
   "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦",
   "block.fkttestrainmod.alexandrite_ore": "FKT 礦",
@@ -41,6 +43,7 @@
 
   "tooltip.fkttestrainmod.chisel.shift_down": "這物品改變某些方塊",
   "tooltip.fkttestrainmod.chisel": "按下 §eShift§r 取得更多資訊!",
+  "tooltip.fkttestrainmod.alexandrite_hammer": "朗咯！ 槌子嗎",
 
   "tooltip.fkttestrainmod.kohlrabit": "這個吃起來 真香!"
 }

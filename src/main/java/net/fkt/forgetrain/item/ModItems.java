@@ -3,6 +3,7 @@ package net.fkt.forgetrain.item;
 import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.item.custom.ChiselItem;
 import net.fkt.forgetrain.item.custom.FuelItem;
+import net.fkt.forgetrain.item.custom.HammerItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -49,6 +50,11 @@ public class ModItems {
     public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
             () -> new HoeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ALEXANDRITE, 0, -3.0f))));
+
+    public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
+            () -> new HammerItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ALEXANDRITE, 7, -3.5f))));
+
     // 建造此 Mod 註冊到 Main Class 的方法
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

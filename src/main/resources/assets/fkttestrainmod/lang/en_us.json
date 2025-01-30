@@ -12,6 +12,8 @@
   "item.fkttestrainmod.alexandrite_axe": "FKT Axe",
   "item.fkttestrainmod.alexandrite_hoe": "FKT Hoe",
 
+  "item.fkttestrainmod.alexandrite_hammer": "FKT Hammer",
+
   "block.fkttestrainmod.alexandrite_block": "FKT Block",
   "block.fkttestrainmod.raw_alexandrite_block": "Raw FKT Block",
   "block.fkttestrainmod.alexandrite_ore": "FKT Ore",
@@ -41,6 +43,7 @@
 
   "tooltip.fkttestrainmod.chisel.shift_down": "This Item changes certain Blocks",
   "tooltip.fkttestrainmod.chisel": "Press §eShift§r for more Information!",
+  "tooltip.fkttestrainmod.alexandrite_hammer": "A Hammer",
 
   "tooltip.fkttestrainmod.kohlrabit": "This taste GREAT!"
 }
