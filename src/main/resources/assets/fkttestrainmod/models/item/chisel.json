@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fkttestrainmod:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fkttestrainmod:used": 1
+      },
+      "model": "fkttestrainmod:item/chisel_used"
+    }
+  ]
+}

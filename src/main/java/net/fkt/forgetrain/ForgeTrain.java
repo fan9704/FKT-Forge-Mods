@@ -5,6 +5,7 @@ import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.component.ModDataComponentTypes;
 import net.fkt.forgetrain.item.ModCreativeModeTabs;
 import net.fkt.forgetrain.item.ModItems;
+import net.fkt.forgetrain.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -52,15 +53,6 @@ public class ForgeTrain
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
     // Add the example block item to the building blocks tab
@@ -93,9 +85,8 @@ public class ForgeTrain
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            // 添加自製的 ItemProperties
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

@@ -1,29 +1,29 @@
-[311月2025 13:29:40.776] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\cxz12\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, fkttestrainmod, --all, --output, C:\Users\cxz12\IdeaProjects\forge-traing\src\generated\resources, --existing, C:\Users\cxz12\IdeaProjects\forge-traing\src\main\resources]
-[311月2025 13:29:40.781] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[311月2025 13:29:40.783] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[311月2025 13:29:40.925] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[311月2025 13:29:41.054] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/cxz12/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[311月2025 13:29:42.107] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[311月2025 13:29:43.095] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\cxz12\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, fkttestrainmod, --all, --output, C:\Users\cxz12\IdeaProjects\forge-traing\src\generated\resources, --existing, C:\Users\cxz12\IdeaProjects\forge-traing\src\main\resources]
-[311月2025 13:29:48.503] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.1, for MC 1.21.1 with MCP 20240808.132146
-[311月2025 13:29:48.503] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.1 Initialized
-[311月2025 13:29:48.527] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[311月2025 13:29:49.263] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [fkttestrainmod]
-[311月2025 13:29:49.329] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/cxz12/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[311月2025 13:29:49.330] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/cxz12/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21.jar%230!/data/.mcassetsroot' uses unexpected schema
-[311月2025 13:29:49.512] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[311月2025 13:29:49.675] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 162 ms
-[311月2025 13:29:49.675] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[311月2025 13:29:49.735] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 59 ms
-[311月2025 13:29:49.736] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id fkttestrainmod
-[311月2025 13:29:49.762] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id fkttestrainmod finished after 25 ms
-[311月2025 13:29:49.762] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id fkttestrainmod
-[311月2025 13:29:49.779] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id fkttestrainmod finished after 16 ms
-[311月2025 13:29:49.779] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: fkttestrainmod
-[311月2025 13:29:49.821] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: fkttestrainmod finished after 41 ms
-[311月2025 13:29:49.822] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: fkttestrainmod
-[311月2025 13:29:49.993] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: fkttestrainmod finished after 172 ms
-[311月2025 13:29:49.993] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[311月2025 13:29:50.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 20 ms
-[311月2025 13:29:50.014] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 502 ms
-[311月2025 13:29:50.021] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 190, old count: 191, new count: 191, removed stale: 0, written: 0
+[311月2025 16:14:53.784] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\cxz12\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, fkttestrainmod, --all, --output, C:\Users\cxz12\IdeaProjects\forge-traing\src\generated\resources, --existing, C:\Users\cxz12\IdeaProjects\forge-traing\src\main\resources]
+[311月2025 16:14:53.787] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[311月2025 16:14:53.790] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[311月2025 16:14:53.933] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[311月2025 16:14:54.052] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/cxz12/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[311月2025 16:14:54.986] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[311月2025 16:14:55.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\cxz12\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, fkttestrainmod, --all, --output, C:\Users\cxz12\IdeaProjects\forge-traing\src\generated\resources, --existing, C:\Users\cxz12\IdeaProjects\forge-traing\src\main\resources]
+[311月2025 16:15:01.057] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.1, for MC 1.21.1 with MCP 20240808.132146
+[311月2025 16:15:01.057] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.1 Initialized
+[311月2025 16:15:01.088] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[311月2025 16:15:01.874] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [fkttestrainmod]
+[311月2025 16:15:01.966] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/cxz12/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[311月2025 16:15:01.966] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/cxz12/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.1_mapped_parchment_2024.07.28-1.21.jar%230!/data/.mcassetsroot' uses unexpected schema
+[311月2025 16:15:02.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[311月2025 16:15:02.347] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 158 ms
+[311月2025 16:15:02.348] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[311月2025 16:15:02.426] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 77 ms
+[311月2025 16:15:02.426] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id fkttestrainmod
+[311月2025 16:15:02.444] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id fkttestrainmod finished after 17 ms
+[311月2025 16:15:02.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id fkttestrainmod
+[311月2025 16:15:02.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id fkttestrainmod finished after 2 ms
+[311月2025 16:15:02.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: fkttestrainmod
+[311月2025 16:15:02.482] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: fkttestrainmod finished after 33 ms
+[311月2025 16:15:02.482] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: fkttestrainmod
+[311月2025 16:15:02.635] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: fkttestrainmod finished after 153 ms
+[311月2025 16:15:02.636] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[311月2025 16:15:02.657] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 20 ms
+[311月2025 16:15:02.657] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 469 ms
+[311月2025 16:15:02.664] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 189, old count: 190, new count: 190, removed stale: 0, written: 0
