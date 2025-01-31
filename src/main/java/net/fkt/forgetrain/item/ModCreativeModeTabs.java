@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALEXANDRITE_BOOTS.get());
 
                         output.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
                     }).build());
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexendrite_blocks_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get()))

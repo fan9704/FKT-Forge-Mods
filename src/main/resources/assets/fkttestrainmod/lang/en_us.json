@@ -20,6 +20,7 @@
   "item.fkttestrainmod.alexandrite_boots": "FKT Boots",
 
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT Horse Armor",
+  "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
 
   "block.fkttestrainmod.alexandrite_block": "FKT Block",
   "block.fkttestrainmod.raw_alexandrite_block": "Raw FKT Block",
@@ -52,5 +53,8 @@
   "tooltip.fkttestrainmod.chisel": "Press §eShift§r for more Information!",
   "tooltip.fkttestrainmod.alexandrite_hammer": "A Hammer",
 
-  "tooltip.fkttestrainmod.kohlrabit": "This taste GREAT!"
+  "tooltip.fkttestrainmod.kohlrabit": "This taste GREAT!",
+
+  "trim_pattern.fkttestrainmod.kaupen": "Kaupen Armor Trim",
+  "trim_material.fkttestrainmod.alexandrite": "Alexandrite Material"
 }

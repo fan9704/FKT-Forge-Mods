@@ -20,6 +20,7 @@
   "item.fkttestrainmod.alexandrite_boots": "FKT 靴子",
 
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT 馬鎧",
+  "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "Kaupen 修剪模板",
 
   "block.fkttestrainmod.alexandrite_block": "FKT 磚",
   "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦",
@@ -52,5 +53,8 @@
   "tooltip.fkttestrainmod.chisel": "按下 §eShift§r 取得更多資訊!",
   "tooltip.fkttestrainmod.alexandrite_hammer": "朗咯！ 槌子嗎",
 
-  "tooltip.fkttestrainmod.kohlrabit": "這個吃起來 真香!"
+  "tooltip.fkttestrainmod.kohlrabit": "這個吃起來 真香!",
+
+  "trim_pattern.fkttestrainmod.kaupen": "Kaupen 胸甲修剪",
+  "trim_material.fkttestrainmod.alexandrite": "FKT 原料"
 }

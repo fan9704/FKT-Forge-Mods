@@ -1,0 +1,8 @@
+{
+  "asset_id": "fkttestrainmod:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.fkttestrainmod.kaupen"
+  },
+  "template_item": "fkttestrainmod:kaupen_armor_trim_smithing_template"
+}
