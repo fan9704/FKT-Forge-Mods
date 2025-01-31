@@ -1,0 +1,6 @@
+{
+  "parent": "fkttestrainmod:item/kaupen_bow",
+  "textures": {
+    "layer0": "fkttestrainmod:item/kaupen_bow_pulling_1"
+  }
+}
