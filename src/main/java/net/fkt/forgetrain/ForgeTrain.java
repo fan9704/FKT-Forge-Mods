@@ -6,6 +6,7 @@ import net.fkt.forgetrain.component.ModDataComponentTypes;
 import net.fkt.forgetrain.item.ModCreativeModeTabs;
 import net.fkt.forgetrain.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -65,7 +66,7 @@ public class ForgeTrain
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        // 添加 ModItem ALEXANDRITE/RAW_ALEXANDRITE 至 "Ingredient" 選項卡
+//        // 添加 ModItem ALEXANDRITE/RAW_ALEXANDRITE 至 "Ingredient" 選項卡
 //        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 //            event.accept(ModItems.ALEXANDRITE);
 //            event.accept(ModItems.RAW_ALEXANDRITE);
