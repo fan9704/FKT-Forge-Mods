@@ -14,6 +14,11 @@
 
   "item.fkttestrainmod.alexandrite_hammer": "FKT 之錘",
 
+  "item.fkttestrainmod.alexandrite_helmet": "FKT 頭盔",
+  "item.fkttestrainmod.alexandrite_chestplate": "FKT 胸甲",
+  "item.fkttestrainmod.alexandrite_leggings": "FKT 護腿",
+  "item.fkttestrainmod.alexandrite_boots": "FKT 靴子",
+
   "block.fkttestrainmod.alexandrite_block": "FKT 磚",
   "block.fkttestrainmod.raw_alexandrite_block": "FKT 原礦",
   "block.fkttestrainmod.alexandrite_ore": "FKT 礦",

@@ -14,6 +14,11 @@
 
   "item.fkttestrainmod.alexandrite_hammer": "FKT Hammer",
 
+  "item.fkttestrainmod.alexandrite_helmet": "FKT Helmet",
+  "item.fkttestrainmod.alexandrite_chestplate": "FKT Chestplate",
+  "item.fkttestrainmod.alexandrite_leggings": "FKT Leggings",
+  "item.fkttestrainmod.alexandrite_boots": "FKT Boots",
+
   "block.fkttestrainmod.alexandrite_block": "FKT Block",
   "block.fkttestrainmod.raw_alexandrite_block": "Raw FKT Block",
   "block.fkttestrainmod.alexandrite_ore": "FKT Ore",
