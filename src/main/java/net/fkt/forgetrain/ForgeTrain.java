@@ -5,6 +5,7 @@ import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.component.ModDataComponentTypes;
 import net.fkt.forgetrain.item.ModCreativeModeTabs;
 import net.fkt.forgetrain.item.ModItems;
+import net.fkt.forgetrain.sound.ModSounds;
 import net.fkt.forgetrain.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -45,6 +46,7 @@ public class ForgeTrain
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModDataComponentTypes.register(modEventBus);
+        ModSounds.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us

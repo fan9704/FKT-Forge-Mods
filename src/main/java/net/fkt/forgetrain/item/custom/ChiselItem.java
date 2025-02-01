@@ -2,6 +2,7 @@ package net.fkt.forgetrain.item.custom;
 
 import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.component.ModDataComponentTypes;
+import net.fkt.forgetrain.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -43,7 +44,7 @@ public class ChiselItem extends Item {
                 level.setBlockAndUpdate(pContext.getClickedPos(),CHISEL_MAPS.get(clickedBlock).defaultBlockState());
                 pContext.getItemInHand().hurtAndBreak(1,((ServerLevel) level) ,((ServerPlayer) pContext.getPlayer()),
                         item -> pContext.getPlayer().onEquippedItemBroken(item,EquipmentSlot.MAINHAND));
-                level.playSound(null,pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null,pContext.getClickedPos(), ModSounds.CHISEL_USE.get(), SoundSource.BLOCKS);
 
                 pContext.getItemInHand().set(ModDataComponentTypes.COORDINATED.get(),pContext.getClickedPos());
             }

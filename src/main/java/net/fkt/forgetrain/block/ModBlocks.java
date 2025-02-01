@@ -4,6 +4,7 @@ import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.block.custom.AlexandriteLampBlock;
 import net.fkt.forgetrain.block.custom.MagicBlock;
 import net.fkt.forgetrain.item.ModItems;
+import net.fkt.forgetrain.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -33,8 +34,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
+
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final RegistryObject<StairBlock> ALEXANDRITE_STAIRS = registerBlock("alexandrite_stairs",
             ()-> new StairBlock(ModBlocks.ALEXANDRITE_BLOCK.get().defaultBlockState(),
