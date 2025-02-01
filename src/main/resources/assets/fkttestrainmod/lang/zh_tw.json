@@ -22,6 +22,10 @@
   "item.fkttestrainmod.bar_brawl_music_disc": "Bar Brawl 音盤",
   "item.fkttestrainmod.bar_brawl_music_disc.desc": "布萊恩科技 - Bar Brawl (CC0)",
 
+  "item.minecraft.potion.effect.slimey_potion": "史萊姆化藥水",
+  "item.minecraft.splash_potion.effect.slimey_potion": "飛濺 史萊姆化藥水",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "滯留 史萊姆化藥水",
+
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT 馬鎧",
   "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "FKT 鍛造模板",
 
