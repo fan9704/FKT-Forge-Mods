@@ -5,6 +5,7 @@ import net.fkt.forgetrain.item.custom.ChiselItem;
 import net.fkt.forgetrain.item.custom.FuelItem;
 import net.fkt.forgetrain.item.custom.HammerItem;
 import net.fkt.forgetrain.item.custom.ModArmorItem;
+import net.fkt.forgetrain.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -79,6 +80,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> KAUPEN_BOW = ITEMS.register("kaupen_bow",
             ()-> new BowItem(new Item.Properties().durability(500)));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISK = ITEMS.register("bar_brawl_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
     // 建造此 Mod 註冊到 Main Class 的方法
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

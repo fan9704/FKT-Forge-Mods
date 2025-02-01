@@ -69,6 +69,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
         basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        basicItem(ModItems.BAR_BRAWL_MUSIC_DISK.get());
     }
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = ForgeTrain.MOD_ID; // Change this to your mod id

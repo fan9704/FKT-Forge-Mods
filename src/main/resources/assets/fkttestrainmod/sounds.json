@@ -34,5 +34,13 @@
     "sounds": [
       "fkttestrainmod:magic_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "fkttestrainmod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
