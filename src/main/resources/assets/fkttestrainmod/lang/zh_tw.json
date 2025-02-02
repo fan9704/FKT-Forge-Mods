@@ -26,6 +26,8 @@
   "item.minecraft.splash_potion.effect.slimey_potion": "飛濺 史萊姆化藥水",
   "item.minecraft.lingering_potion.effect.slimey_potion": "滯留 史萊姆化藥水",
 
+  "item.fkttestrainmod.kohlrabi_seeds": "大頭菜種子",
+
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT 馬鎧",
   "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "FKT 鍛造模板",
 
@@ -52,6 +54,8 @@
   "block.fkttestrainmod.alexandrite_trapdoor": "FKT 地板門",
 
   "block.fkttestrainmod.alexandrite_lamp": "FKT 燈",
+
+  "block.fkttestrainmod.kohlrabi_crop" : "大頭菜農作物",
 
   "effect.fkttestrainmod.slimey": "史萊姆化",
 

@@ -13,6 +13,7 @@ import net.fkt.forgetrain.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.common.MinecraftForge;
@@ -59,23 +60,16 @@ public class ForgeTrain
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            // 掉落機率
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(),0.4f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(),0.15f);
+        });
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-//        // 添加 ModItem ALEXANDRITE/RAW_ALEXANDRITE 至 "Ingredient" 選項卡
-//        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-//            event.accept(ModItems.ALEXANDRITE);
-//            event.accept(ModItems.RAW_ALEXANDRITE);
-//        }
-//        // 添加 ModItem ALEXANDRITE_BLOCK/RAW_ALEXANDRITE_BLOCK 至 "Building Blocks" 選項卡
-//        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-//            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
-//            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
-//        }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

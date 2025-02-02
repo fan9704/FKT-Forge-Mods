@@ -2,6 +2,7 @@ package net.fkt.forgetrain.block;
 
 import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.block.custom.AlexandriteLampBlock;
+import net.fkt.forgetrain.block.custom.KohlrabiCropBlock;
 import net.fkt.forgetrain.block.custom.MagicBlock;
 import net.fkt.forgetrain.item.ModItems;
 import net.fkt.forgetrain.sound.ModSounds;
@@ -65,6 +66,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
             () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().strength(3f)
                     .lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
+
+    // 非 Item 類型 Block
+    public static final RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
+            () -> new KohlrabiCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
 
     private  static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T>  toReturn = BLOCKS.register(name, block);

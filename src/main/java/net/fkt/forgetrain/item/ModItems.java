@@ -1,6 +1,7 @@
 package net.fkt.forgetrain.item;
 
 import net.fkt.forgetrain.ForgeTrain;
+import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.item.custom.ChiselItem;
 import net.fkt.forgetrain.item.custom.FuelItem;
 import net.fkt.forgetrain.item.custom.HammerItem;
@@ -83,6 +84,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISK = ITEMS.register("bar_brawl_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
+
+    public static final RegistryObject<Item> KOHLRABI_SEEDS = ITEMS.register("kohlrabi_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new Item.Properties()));
+
     // 建造此 Mod 註冊到 Main Class 的方法
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

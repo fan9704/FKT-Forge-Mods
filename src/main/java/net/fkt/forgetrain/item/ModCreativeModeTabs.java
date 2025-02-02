@@ -42,6 +42,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KAUPEN_BOW.get());
 
                         output.accept(ModItems.BAR_BRAWL_MUSIC_DISK.get());
+
+                        output.accept(ModItems.KOHLRABI_SEEDS.get());
                     }).build());
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexendrite_blocks_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get()))

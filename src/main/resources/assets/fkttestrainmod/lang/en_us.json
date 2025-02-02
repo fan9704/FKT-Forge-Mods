@@ -26,6 +26,8 @@
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
+  "item.fkttestrainmod.kohlrabi_seeds": "Kohlrabi Seeds",
+
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT Horse Armor",
   "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "FKT Trim Template",
 
@@ -52,6 +54,8 @@
   "block.fkttestrainmod.alexandrite_trapdoor": "FKT Trapdoor",
 
   "block.fkttestrainmod.alexandrite_lamp": "FKT Lamp",
+
+  "block.fkttestrainmod.kohlrabi_crop" : "Kohlrabi Crop",
 
   "effect.fkttestrainmod.slimey": "Slimey",
 
