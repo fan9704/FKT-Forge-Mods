@@ -2,6 +2,7 @@ package net.fkt.forgetrain.block;
 
 import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.block.custom.AlexandriteLampBlock;
+import net.fkt.forgetrain.block.custom.HoneyBerryBushBlock;
 import net.fkt.forgetrain.block.custom.KohlrabiCropBlock;
 import net.fkt.forgetrain.block.custom.MagicBlock;
 import net.fkt.forgetrain.item.ModItems;
@@ -70,6 +71,9 @@ public class ModBlocks {
     // 非 Item 類型 Block
     public static final RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
             () -> new KohlrabiCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> HONEY_BERRY_BUSH = BLOCKS.register("honey_berry_bush",
+            () -> new HoneyBerryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
 
     private  static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

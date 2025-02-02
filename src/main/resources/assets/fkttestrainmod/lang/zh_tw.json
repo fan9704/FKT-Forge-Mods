@@ -27,6 +27,7 @@
   "item.minecraft.lingering_potion.effect.slimey_potion": "滯留 史萊姆化藥水",
 
   "item.fkttestrainmod.kohlrabi_seeds": "大頭菜種子",
+  "item.fkttestrainmod.honey_berries": "蜂蜜漿果",
 
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT 馬鎧",
   "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "FKT 鍛造模板",
@@ -56,6 +57,7 @@
   "block.fkttestrainmod.alexandrite_lamp": "FKT 燈",
 
   "block.fkttestrainmod.kohlrabi_crop" : "大頭菜農作物",
+  "block.fkttestrainmod.honey_berry_bush" : "蜂蜜漿果叢",
 
   "effect.fkttestrainmod.slimey": "史萊姆化",
 
