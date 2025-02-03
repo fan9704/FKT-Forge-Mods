@@ -29,13 +29,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
-            () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
-            () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
-                    .strength(5f).requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)));
+            () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ALEXANDRITE_END_ORE = registerBlock("alexandrite_end_ore",
+            () -> new DropExperienceBlock(UniformInt.of(5, 9),
+                    BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ALEXANDRITE_NETHER_ORE = registerBlock("alexandrite_nether_ore",
+            () -> new DropExperienceBlock(UniformInt.of(1, 5),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
@@ -55,9 +62,9 @@ public class ModBlocks {
     public static final RegistryObject<FenceBlock> ALEXANDRITE_FENCE = registerBlock("alexandrite_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<FenceGateBlock> ALEXANDRITE_FENCE_GATE = registerBlock("alexandrite_fence_gate",
-            ()-> new FenceGateBlock(WoodType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+            () -> new FenceGateBlock(WoodType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<WallBlock> ALEXANDRITE_WALL = registerBlock("alexandrite_wall",
-            ()-> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<DoorBlock> ALEXANDRITE_DOOR = registerBlock("alexandrite_door",
             ()-> new DoorBlock(BlockSetType.IRON,BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noCollission()));
