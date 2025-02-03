@@ -5,12 +5,15 @@ import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.component.ModDataComponentTypes;
 import net.fkt.forgetrain.effect.ModEffects;
 import net.fkt.forgetrain.enchantment.ModEnchantmentEffects;
+import net.fkt.forgetrain.entity.ModEntities;
+import net.fkt.forgetrain.entity.client.TriceratopsRenderer;
 import net.fkt.forgetrain.item.ModCreativeModeTabs;
 import net.fkt.forgetrain.item.ModItems;
 import net.fkt.forgetrain.potion.ModPotions;
 import net.fkt.forgetrain.sound.ModSounds;
 import net.fkt.forgetrain.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
@@ -38,9 +41,9 @@ public class ForgeTrain
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ForgeTrain()
+    public ForgeTrain(FMLJavaModLoadingContext context)
     {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = context.getModEventBus();
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -54,10 +57,11 @@ public class ForgeTrain
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
         ModEnchantmentEffects.register(modEventBus);
+        ModEntities.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -89,6 +93,8 @@ public class ForgeTrain
         {
             // 添加自製的 ItemProperties
             ModItemProperties.addCustomItemProperties();
+
+            EntityRenderers.register(ModEntities.TRICERATOPS.get(), TriceratopsRenderer::new);
         }
     }
 }

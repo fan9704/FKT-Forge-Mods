@@ -2,6 +2,7 @@ package net.fkt.forgetrain.item;
 
 import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.block.ModBlocks;
+import net.fkt.forgetrain.entity.ModEntities;
 import net.fkt.forgetrain.item.custom.ChiselItem;
 import net.fkt.forgetrain.item.custom.FuelItem;
 import net.fkt.forgetrain.item.custom.HammerItem;
@@ -11,6 +12,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -90,6 +92,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> HONEY_BERRIES = ITEMS.register("honey_berries",
             () -> new ItemNameBlockItem(ModBlocks.HONEY_BERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.HONEY_BERRY)));
+
+    public static final RegistryObject<Item> TRICERATOPS_SPAWN_EGG = ITEMS.register("triceratops_spawn_egg",
+            ()-> new ForgeSpawnEggItem(ModEntities.TRICERATOPS,0x53524b,0xdac741,new Item.Properties()));
 
     // 建造此 Mod 註冊到 Main Class 的方法
     public static void register(IEventBus eventBus) {

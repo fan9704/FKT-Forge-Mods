@@ -29,6 +29,8 @@
   "item.fkttestrainmod.kohlrabi_seeds": "大頭菜種子",
   "item.fkttestrainmod.honey_berries": "蜂蜜漿果",
 
+  "item.fkttestrainmod.triceratops_spawn_egg": "三角龍生怪蛋",
+
   "item.fkttestrainmod.alexandrite_horse_armor": "FKT 馬鎧",
   "item.fkttestrainmod.kaupen_armor_trim_smithing_template": "FKT 鍛造模板",
 
@@ -94,5 +96,7 @@
   "tooltip.fkttestrainmod.kohlrabit": "這個吃起來 真香!",
 
   "trim_pattern.fkttestrainmod.kaupen": "FKT 鍛造胸甲",
-  "trim_material.fkttestrainmod.alexandrite": "FKT 原料"
+  "trim_material.fkttestrainmod.alexandrite": "FKT 原料",
+
+  "entity.fkttestrainmod.triceratops": "三角龍"
 }
