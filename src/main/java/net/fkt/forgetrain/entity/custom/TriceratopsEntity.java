@@ -3,13 +3,17 @@ package net.fkt.forgetrain.entity.custom;
 import net.fkt.forgetrain.entity.ModEntities;
 import net.fkt.forgetrain.entity.TriceratopsVariant;
 import net.fkt.forgetrain.item.ModItems;
+import net.fkt.forgetrain.sound.ModSounds;
 import net.minecraft.Util;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.DifficultyInstance;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -133,5 +137,23 @@ public class TriceratopsEntity extends Animal {
         TriceratopsVariant variant = Util.getRandom(TriceratopsVariant.values(),this.random);
         ((TriceratopsEntity) pBaby).setVariant(variant);
         super.finalizeSpawnChildFromBreeding(pLevel, pAnimal, pBaby);
+    }
+
+    // Sounds
+
+    // 生物棲息聲音
+    @Override
+    protected @Nullable SoundEvent getAmbientSound() {
+        return SoundEvents.ELDER_GUARDIAN_AMBIENT;
+    }
+    // 受傷音效
+    @Override
+    protected @Nullable SoundEvent getHurtSound(DamageSource pDamageSource) {
+        return SoundEvents.RAVAGER_HURT;
+    }
+    // 死亡音效
+    @Override
+    protected @Nullable SoundEvent getDeathSound() {
+        return SoundEvents.SNIFFER_DEATH;
     }
 }
