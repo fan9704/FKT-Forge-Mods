@@ -1,21 +1,34 @@
 package net.fkt.forgetrain.entity.client;
 
+import com.google.common.collect.Maps;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.fkt.forgetrain.ForgeTrain;
+import net.fkt.forgetrain.entity.TriceratopsVariant;
 import net.fkt.forgetrain.entity.custom.TriceratopsEntity;
+import net.minecraft.Util;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 
+import java.util.Map;
+
 public class TriceratopsRenderer extends MobRenderer<TriceratopsEntity, TriceratopsModel<TriceratopsEntity>> {
+    private static final Map<TriceratopsVariant,ResourceLocation> LOCATION_BY_VARIANT =
+            Util.make(Maps.newEnumMap(TriceratopsVariant.class), map -> {
+                map.put(TriceratopsVariant.GRAY,
+                        ResourceLocation.fromNamespaceAndPath(ForgeTrain.MOD_ID,"textures/entity/triceratops/triceratops_gray.png"));
+                map.put(TriceratopsVariant.GREEN,
+                        ResourceLocation.fromNamespaceAndPath(ForgeTrain.MOD_ID,"textures/entity/triceratops/triceratops_green.png"));
+            });
+
     public TriceratopsRenderer(EntityRendererProvider.Context pContext) {
         super(pContext, new TriceratopsModel<>(pContext.bakeLayer(TriceratopsModel.LAYER_LOCATION)), 0.85f);
     }
 
     @Override
     public ResourceLocation getTextureLocation(TriceratopsEntity pEntity) {
-        return ResourceLocation.fromNamespaceAndPath(ForgeTrain.MOD_ID, "textures/entity/triceratops/triceratops_gray.png");
+        return LOCATION_BY_VARIANT.get(pEntity.getVariant());
     }
 
     @Override
