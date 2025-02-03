@@ -41,6 +41,15 @@
   "block.fkttestrainmod.alexandrite_end_ore": "FKT End Ore",
   "block.fkttestrainmod.alexandrite_nether_ore": "FKT Nether Ore",
 
+  "block.fkttestrainmod.walnut_log": "Walnut Log",
+  "block.fkttestrainmod.walnut_planks": "Walnut Planks",
+  "block.fkttestrainmod.walnut_wood": "Walnut Wood",
+  "block.fkttestrainmod.stripped_walnut_log": "Stripped Walnut Log",
+  "block.fkttestrainmod.stripped_walnut_wood": "Stripped Walnut Wood",
+  "block.fkttestrainmod.walnut_leaves": "Walnut Leaves",
+
+  "block.fkttestrainmod.walnut_sapling": "Walnut Sapling",
+
   "block.fkttestrainmod.magic_block": "Magic Block",
 
   "block.fkttestrainmod.alexandrite_stairs": "FKT Stairs",

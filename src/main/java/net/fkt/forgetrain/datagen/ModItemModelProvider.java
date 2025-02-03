@@ -75,7 +75,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.KOHLRABI_SEEDS.get());
 
         basicItem(ModItems.HONEY_BERRIES.get());
+
+        saplingItem(ModBlocks.WALNUT_SAPLING);
     }
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(ForgeTrain.MOD_ID,"block/" + item.getId().getPath()));
+    }
+
+
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = ForgeTrain.MOD_ID; // Change this to your mod id
 

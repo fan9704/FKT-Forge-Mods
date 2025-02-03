@@ -85,6 +85,18 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                                 .apply(ApplyBonusCount.addUniformBonusCount(registrylookup.getOrThrow(Enchantments.FORTUNE)))
                 )));
 
+        this.dropSelf(ModBlocks.WALNUT_LOG.get());
+        this.dropSelf(ModBlocks.WALNUT_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_WALNUT_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_WALNUT_WOOD.get());
+        this.dropSelf(ModBlocks.WALNUT_PLANKS.get());
+        this.dropSelf(ModBlocks.WALNUT_SAPLING.get());
+
+        this.add(ModBlocks.WALNUT_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.WALNUT_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+
+
     }
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops){
         HolderLookup.RegistryLookup<Enchantment> registryLookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);

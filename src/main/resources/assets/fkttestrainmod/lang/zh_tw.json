@@ -41,6 +41,15 @@
   "block.fkttestrainmod.alexandrite_end_ore": "FKT 終界礦",
   "block.fkttestrainmod.alexandrite_nether_ore": "FKT 地獄礦",
 
+  "block.fkttestrainmod.walnut_log": "核桃原木",
+  "block.fkttestrainmod.walnut_planks": "核桃木板",
+  "block.fkttestrainmod.walnut_wood": "核桃木塊",
+  "block.fkttestrainmod.stripped_walnut_log": "剝皮核桃原木",
+  "block.fkttestrainmod.stripped_walnut_wood": "剝皮核桃木塊",
+  "block.fkttestrainmod.walnut_leaves": "核桃樹葉",
+
+  "block.fkttestrainmod.walnut_sapling": "核桃樹苗",
+
   "block.fkttestrainmod.magic_block": "神奇方塊",
 
   "block.fkttestrainmod.alexandrite_stairs": "FKT 階梯",
