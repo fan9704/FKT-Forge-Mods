@@ -6,6 +6,7 @@ import net.fkt.forgetrain.component.ModDataComponentTypes;
 import net.fkt.forgetrain.effect.ModEffects;
 import net.fkt.forgetrain.enchantment.ModEnchantmentEffects;
 import net.fkt.forgetrain.entity.ModEntities;
+import net.fkt.forgetrain.entity.client.TomahawkProjectileRenderer;
 import net.fkt.forgetrain.entity.client.TriceratopsRenderer;
 import net.fkt.forgetrain.item.ModCreativeModeTabs;
 import net.fkt.forgetrain.item.ModItems;
@@ -93,8 +94,9 @@ public class ForgeTrain
         {
             // 添加自製的 ItemProperties
             ModItemProperties.addCustomItemProperties();
-
+            // 註冊 EntityRenderer
             EntityRenderers.register(ModEntities.TRICERATOPS.get(), TriceratopsRenderer::new);
+            EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
         }
     }
 }

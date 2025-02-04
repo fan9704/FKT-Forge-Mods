@@ -3,6 +3,7 @@ package net.fkt.forgetrain.event;
 
 import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.entity.ModEntities;
+import net.fkt.forgetrain.entity.client.TomahawkProjectileModel;
 import net.fkt.forgetrain.entity.client.TriceratopsModel;
 import net.fkt.forgetrain.entity.custom.TriceratopsEntity;
 import net.minecraft.world.entity.SpawnPlacementType;
@@ -20,6 +21,7 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(TriceratopsModel.LAYER_LOCATION,TriceratopsModel::createBodyLayer);
+        event.registerLayerDefinition(TomahawkProjectileModel.LAYER_LOCATION,TomahawkProjectileModel::createBodyLayer);
     }
 
     @SubscribeEvent

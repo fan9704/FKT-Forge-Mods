@@ -3,10 +3,7 @@ package net.fkt.forgetrain.item;
 import net.fkt.forgetrain.ForgeTrain;
 import net.fkt.forgetrain.block.ModBlocks;
 import net.fkt.forgetrain.entity.ModEntities;
-import net.fkt.forgetrain.item.custom.ChiselItem;
-import net.fkt.forgetrain.item.custom.FuelItem;
-import net.fkt.forgetrain.item.custom.HammerItem;
-import net.fkt.forgetrain.item.custom.ModArmorItem;
+import net.fkt.forgetrain.item.custom.*;
 import net.fkt.forgetrain.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -95,6 +92,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> TRICERATOPS_SPAWN_EGG = ITEMS.register("triceratops_spawn_egg",
             ()-> new ForgeSpawnEggItem(ModEntities.TRICERATOPS,0x53524b,0xdac741,new Item.Properties()));
+
+    public static final RegistryObject<Item> TOMAHAWK = ITEMS.register("tomahawk",
+            ()-> new TomahawkItem(new Item.Properties().stacksTo(16)));
 
     // 建造此 Mod 註冊到 Main Class 的方法
     public static void register(IEventBus eventBus) {
