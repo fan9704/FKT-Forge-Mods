@@ -1,6 +1,7 @@
 package net.fkt.forgetrain.entity;
 
 import net.fkt.forgetrain.ForgeTrain;
+import net.fkt.forgetrain.entity.custom.ChairEntity;
 import net.fkt.forgetrain.entity.custom.TomahawkProjectileEntity;
 import net.fkt.forgetrain.entity.custom.TriceratopsEntity;
 import net.minecraft.world.entity.EntityType;
@@ -22,6 +23,10 @@ public class ModEntities {
     public static final RegistryObject<EntityType<TomahawkProjectileEntity>> TOMAHAWK = ENTITY_TYPES.register("tomahawk",
             ()-> EntityType.Builder.<TomahawkProjectileEntity>of(TomahawkProjectileEntity::new,MobCategory.MISC)
                     .sized(0.5f,1.15f).build("tomahawk"));
+
+    public static final RegistryObject<EntityType<ChairEntity>> CHAIR = ENTITY_TYPES.register("chair_entity",
+            ()-> EntityType.Builder.of(ChairEntity::new,MobCategory.MISC)
+                    .sized(0.5f,0.5f).build("chair_entity"));
 
     public static void register(IEventBus eventBus){
         ENTITY_TYPES.register(eventBus);

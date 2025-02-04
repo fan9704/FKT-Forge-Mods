@@ -6,6 +6,7 @@ import net.fkt.forgetrain.component.ModDataComponentTypes;
 import net.fkt.forgetrain.effect.ModEffects;
 import net.fkt.forgetrain.enchantment.ModEnchantmentEffects;
 import net.fkt.forgetrain.entity.ModEntities;
+import net.fkt.forgetrain.entity.client.ChairRenderer;
 import net.fkt.forgetrain.entity.client.TomahawkProjectileRenderer;
 import net.fkt.forgetrain.entity.client.TriceratopsRenderer;
 import net.fkt.forgetrain.item.ModCreativeModeTabs;
@@ -97,6 +98,7 @@ public class ForgeTrain
             // 註冊 EntityRenderer
             EntityRenderers.register(ModEntities.TRICERATOPS.get(), TriceratopsRenderer::new);
             EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.CHAIR.get(), ChairRenderer::new);
         }
     }
 }
