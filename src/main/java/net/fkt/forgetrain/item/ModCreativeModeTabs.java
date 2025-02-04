@@ -88,6 +88,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WALNUT_SAPLING.get());
 
                         output.accept(ModBlocks.WALNUT_LEAVES.get());
+
+                        output.accept(ModBlocks.CHAIR.get());
                     }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
