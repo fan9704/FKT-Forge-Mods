@@ -6,12 +6,16 @@ import net.fkt.forgetrain.item.ModItems;
 import net.fkt.forgetrain.sound.ModSounds;
 import net.minecraft.Util;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.BossEvent;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.*;
@@ -31,6 +35,9 @@ public class TriceratopsEntity extends Animal {
 
     public final AnimationState idleAnimationState = new AnimationState();
     private int idleAnimationTimeout = 0;
+    // 建立 Boss 事件
+    private final ServerBossEvent bossEvent = new ServerBossEvent(Component.translatable("boss.fkttestrainmod.triceratops"),
+            BossEvent.BossBarColor.WHITE, BossEvent.BossBarOverlay.NOTCHED_12);
 
     public TriceratopsEntity(EntityType<? extends Animal> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
@@ -155,5 +162,31 @@ public class TriceratopsEntity extends Animal {
     @Override
     protected @Nullable SoundEvent getDeathSound() {
         return SoundEvents.SNIFFER_DEATH;
+    }
+
+    // Boss Bar
+
+    // 被玩家看到
+    @Override
+    public void startSeenByPlayer(ServerPlayer pServerPlayer) {
+        super.startSeenByPlayer(pServerPlayer);
+        this.bossEvent.addPlayer(pServerPlayer);
+    }
+    // 停止被玩家看到
+
+    @Override
+    public void stopSeenByPlayer(ServerPlayer pServerPlayer) {
+        super.stopSeenByPlayer(pServerPlayer);
+        this.bossEvent.removePlayer(pServerPlayer);
+    }
+
+    // 睡眠
+
+
+    @Override
+    public void aiStep() {
+        super.aiStep();
+        // 設置血量條狀態到 Progress
+        this.bossEvent.setProgress(this.getHealth()/this.getMaxHealth());
     }
 }

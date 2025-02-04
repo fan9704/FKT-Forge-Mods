@@ -100,5 +100,7 @@
   "trim_material.fkttestrainmod.alexandrite": "FKT 原料",
 
   "entity.fkttestrainmod.triceratops": "三角龍",
-  "entity.fkttestrainmod.tomahawk": "鉞"
+  "entity.fkttestrainmod.tomahawk": "鉞",
+
+  "boss.fkttestrainmod.triceratops": "毀滅三角龍"
 }

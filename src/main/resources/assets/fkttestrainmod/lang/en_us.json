@@ -100,5 +100,7 @@
   "trim_material.fkttestrainmod.alexandrite": "Alexandrite Material",
 
   "entity.fkttestrainmod.triceratops": "Triceratops",
-  "entity.fkttestrainmod.tomahawk": "Tomahawk"
+  "entity.fkttestrainmod.tomahawk": "Tomahawk",
+
+  "boss.fkttestrainmod.triceratops": "Our Cool Triceratops"
 }
