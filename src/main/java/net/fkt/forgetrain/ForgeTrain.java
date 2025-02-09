@@ -14,6 +14,7 @@ import net.fkt.forgetrain.item.ModItems;
 import net.fkt.forgetrain.potion.ModPotions;
 import net.fkt.forgetrain.sound.ModSounds;
 import net.fkt.forgetrain.util.ModItemProperties;
+import net.fkt.forgetrain.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -60,6 +61,7 @@ public class ForgeTrain
         ModPotions.register(modEventBus);
         ModEnchantmentEffects.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModVillagers.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us

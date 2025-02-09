@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fkttestrainmod:kaupen_poi",
+      "required": false
+    }
+  ]
+}

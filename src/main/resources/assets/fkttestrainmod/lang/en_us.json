@@ -77,6 +77,8 @@
 
   "block.fkttestrainmod.chair" : "Chair",
 
+  "entity.minecraft.villager.fkttestrainmod.kaupenger": "Kaupenger",
+
   "effect.fkttestrainmod.slimey": "Slimey",
 
   "painting.fkttestrainmod.world.title": "World",
